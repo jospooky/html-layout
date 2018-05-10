@@ -1,0 +1,23 @@
+body {
+	background: #999999;
+	margin: 0;
+}
+header {
+	background: #696969;
+	height: 10vh;
+	width: 100%;
+}
+
+main {
+	background: #dddddd;
+	height: 80vh;
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer {
+	background: #222222;
+	height: 10vh;
+	width: 80%;
+	margin: 0 auto;
+}

@@ -1,0 +1,71 @@
+#box-one {
+	box-sizing: border-box;
+	margin: 5vh auto;
+	height: 200px;
+	width: 95vw;
+	border: 5px solid black;
+}
+
+#box-two {
+	box-sizing: border-box;
+	margin: 5vh auto;
+	height: 200px;
+	width: 95vw;
+	border: 5px dotted black;
+}
+
+#rect-one {
+	background: purple;
+	width: 4%;
+	height: 60%;
+	float: left;
+	box-sizing: border-box;
+	margin: 60px 10px;
+}
+
+#rect-two {
+	background: green;
+	width: 30%;
+	height: 90%;
+	margin: 10px 100px;
+	float: left;
+}
+
+#circle {
+	background: cyan;
+	height: 175px;
+	width: 160px;
+	float: left;
+	margin: 5px;
+	border-radius: 100%;
+}
+
+#box-two > #rect {
+	background: #bada55;
+	height: 70%;
+	width: 80%;
+	margin: 25px auto;
+	box-shadow: 5px 5px 2px black;
+}
+
+#box-three {
+	margin: 5vh auto;
+	height: 200px;
+	width: 95vw;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	box-shadow: 5px 5px 2px gray;
+}
+
+.test {
+	height: 25;
+	width: 40;
+	margin: 50px 45% 0 45%;
+	color: blue;
+	font-size: 32px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#friends {
+	margin-top: 5px;
+}

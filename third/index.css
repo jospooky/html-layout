@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	height: 90vh;
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+.color-bar {
+	width: 100vw;
+	height: 15.56vh;
+	margin: 0;
+}
+
+header {
+	background: #696969;
+	width: 100%;
+	height: 10vh;
+	box-sizing: border-box;
+	padding: 10px;
+}
+header > div {
+	background: purple;
+	height: 75px;
+	width: 100px;
+}
+
+main {
+	width: 100vw;
+	height: 25vh;
+	text-align: center;
+}
+
+main > p {
+	padding: 1% 15%;
+	font-size: 24px;
+	word-wrap: normal;
+}
+
+.color-one {
+	background: lightblue;
+}
+.color-two {
+	background: cyan;
+}
+.color-three {
+	background: limegreen;
+}
+.color-four {
+	background: yellow;
+}
